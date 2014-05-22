@@ -7,7 +7,7 @@ development:
   adapter: postgresql
   host: localhost
   database: sample_app_dev
-  username: postgres
+  username: sample_app
   password: eliza123
   pool: 5
   timeout: 5000
@@ -19,7 +19,7 @@ test:
   adapter: postgresql
   host: localhost
   database: sample_app_test
-  username: postgres
+  username: sample_app
   password: eliza123
   pool: 5
   timeout: 5000
